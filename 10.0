@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>作业10啦</title>
+	<style>
+		#main{
+			/* margin:0 auto; */
+			width: 100px;
+			height:100px;
+			position: relative;
+		}
+		.box{
+			width: 90px;
+			height:90px;
+			opacity: 0.2;
+			background: skyblue;
+			position: absolute;
+		}
+		.phto{
+			width: 100px;
+			height: 150px;
+			vertical-align: middle;
+		}
+		#box1{
+			left: 60px;
+			top: 30px;
+		}
+	</style><script>
+		function fun(e){
+			alert(e.keyCode);
+		}
+		function mytext(){
+			var a=document.getElementById("input");
+			alert("美女这边这边，看我看我");
+			}
+	</script></head>
+	
+	
+	<body>
+		<div id="main">
+			<div id="phto"><img src="http://mms1.baidu.com/it/u=3050892925,1352718385&fm=253&app=120&f=JPEG?w=800&h=500" border="0" alt=""></div>
+			<div id="box1" class="box" onmouseenter="alert('小飞棍来了哟')">鼠标进入
+			</div>
+			<div>
+			<input type="text" onchange="mytext()" id="iniut" onblur="mytext()">
+			</div>
+	
+
+</div></body></html>
